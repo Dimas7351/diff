@@ -47,7 +47,7 @@ int main()
 		fgets(ch_2, 2000, file_2);
 		a++;
 		if (strcmp(ch_1, ch_2))
-		printf("\n%dc%d\n< %s\n---\n> %s ",a,a,ch_1,ch_2);
+		printf("\n%dc%d\n< %s---\n> %s ",a,a,ch_1,ch_2);
 	}
     printf("\n");
 	fclose (file_1);
